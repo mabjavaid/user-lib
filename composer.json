@@ -1,0 +1,41 @@
+{
+    "name": "maab-javaid/user-lib",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@email.com",
+            "homepage": "http://author.com"
+        }
+    ],
+    "homepage": "https://github.com/maab-javaid/user-lib",
+    "keywords": ["Laravel", "UserLib"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaabJavaid\\UserLib\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MaabJavaid\\UserLib\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MaabJavaid\\UserLib\\UserLibServiceProvider"
+            ],
+            "aliases": {
+                "UserLib": "MaabJavaid\\UserLib\\Facades\\UserLib"
+            }
+        }
+    }
+}
