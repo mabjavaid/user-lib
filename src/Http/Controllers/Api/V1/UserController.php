@@ -2,7 +2,6 @@
 
 namespace MaabJavaid\UserLib\Http\Controllers\Api\V1;
 
-//use Illuminate\Routing\Controller;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\JsonResponse;
 use MaabJavaid\UserLib\Facades\ReqresClient;

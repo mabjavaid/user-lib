@@ -1,16 +1,16 @@
 {
     "name": "maab-javaid/user-lib",
-    "description": ":package_description",
+    "description": ":Package to pull user data from a third party api",
     "license": "MIT",
     "authors": [
         {
-            "name": "Author Name",
-            "email": "author@email.com",
-            "homepage": "http://author.com"
+            "name": "Maab Javaid",
+            "email": "javaid.maab@gmail.com"
         }
     ],
     "homepage": "https://github.com/maab-javaid/user-lib",
     "keywords": ["Laravel", "UserLib"],
+    "minimum-stability": "stable",
     "require": {
         "illuminate/support": "~9"
     },
